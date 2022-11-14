@@ -18,6 +18,8 @@ As input, this pipeline takes a raw uncompressed fastq file (**WARNING: DO NOT t
 
 ***N.B.** If custom primers have been used, the script must be modified with their respective sequences in lines 57-58 (nested primer pair) and line 127 for bridging primer. Also, the length of the bridging primer blast alignment should be modified from '34' in line 133 to suit the custom bridging primer (recommended ~90% of primer length)*
 
+## Installation
+After the below dependencies are installed, simply download the Int1-epicPCR.sh script and run. See usage details below.
 
 ## Dependencies
 A system-wide installation (e.g., via conda) is required for the following programs:  
