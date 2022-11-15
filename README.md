@@ -23,7 +23,7 @@ After the below dependencies are installed, simply download the Int1-epicPCR.sh 
 
 ## Dependencies
 A system-wide installation (e.g., via conda) is required for the following programs:  
-*N.B. The versions listed have been tested using the pipeline, but newer and/or older version will most likely also work*
+*N.B. The versions listed have been tested using the pipeline, but newer and/or older versions will most likely also work*
 
 [NanoFilt](https://github.com/wdecoster/nanofilt) v2.8.0  
 [Pychopper](https://github.com/epi2me-labs/pychopper) v2.7.0  
