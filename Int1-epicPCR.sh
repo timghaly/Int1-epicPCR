@@ -1,6 +1,6 @@
 #!/bin/bash
 
-usage() { printf "\nusage: ./epicPCR.sh -r [optional arguments]\n\nMandatory arguments:\n-r : Nanopore reads as a single fastq file\n\nOptional arguments:\n-t : number of CPUs | default: 1\n-o : output directory | default: current directory\n\nDependencies:\nNanoFilt\nPychopper\nisONclust\nisONcorrect\nSpoa\nBBTools\nBLAST\nSAMtools\nMetaxa2\n\n"; exit 0;}
+usage() { printf "\nusage: ./Int1-epicPCR.sh -r [optional arguments]\n\nMandatory arguments:\n-r : Nanopore reads as a single fastq file\n\nOptional arguments:\n-t : number of CPUs | default: 1\n-o : output directory | default: current directory\n\nDependencies:\nNanoFilt\nPychopper\nisONclust\nisONcorrect\nSpoa\nBBTools\nBLAST\nSAMtools\nMetaxa2\n\n"; exit 0;}
 [ $# -eq 0 ] && usage
 
 while getopts r:t:o: flag
@@ -161,7 +161,7 @@ echo 'Finished Metaxa2'
 echo '#################################################'
 
 echo '#################################################'
-printf "epicPCR.sh has Finished\n\nFinal output saved as $outdir/Final_filtered/$name.fasta"
+printf "Int1-epicPCR.sh has Finished\n\nFinal output saved as $outdir/Final_filtered/$name.fasta"
 printf "#################################################\n"
 
 
