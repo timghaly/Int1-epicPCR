@@ -1,7 +1,7 @@
 # Int1-epicPCR
 
 
-This script runs all the steps for the sequence processing and filtering of class 1 integron-16S epicPCR products sequenced with Oxford Nanopore Technologies. The expected epicPCR products are generated from a fusion PCR that links class 1 integron gene cassette arrays amplified from single cells, isolated in aqueous phase droplets, to the 16S rRNA marker gene from the same cells. 
+This script runs all the steps for the sequence processing and filtering of class 1 integron-16S epicPCR products sequenced with Oxford Nanopore Technologies. The expected epicPCR products are generated from a fusion PCR that links class 1 integron gene cassette arrays amplified from single cells, isolated in aqueous phase droplets, to the 16S rRNA marker gene from the same cells. See a [schematic](https://github.com/timghaly/Int1-epicPCR/blob/main/epicPCR_schematic.jpg) of the experimental workflow.
 
 As input, this pipeline takes a raw uncompressed fastq file (**WARNING: DO NOT trim adapters during basecalling**), and outputs a single fasta file containing a set of full-length, primer-oriented epicPCR amplicon consensus sequences that contain a complete *attI1* sequence, epicPCR bridging primer, and the 16S rRNA marker gene.
 
