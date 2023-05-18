@@ -42,7 +42,7 @@ A system-wide installation (e.g., via conda) is required for the following progr
 usage: ./Int1-epicPCR.sh -r [optional arguments]
 
 Mandatory arguments:
-    -r : Nanopore reads as a single uncompressed fastq file
+    -r : Nanopore reads as a single fastq file (accepts gz compressed or uncompressed format)
     
 Optional arguments:
     -t : number of CPUs | default: 1
