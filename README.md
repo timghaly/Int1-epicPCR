@@ -16,7 +16,7 @@ As input, this pipeline takes a raw uncompressed fastq file (**WARNING: DO NOT t
 
 **AP27_short**: 5'-GCTCTTCCGATCTGGACTACHVGGGTWTCTAAT-3' # Nested reverse primer that anneals to the 16S rRNA gene (R806 annealing site).
 
-***N.B.** If custom primers have been used, the script must be modified with their respective sequences in lines 57-58 (nested primer pair) and line 127 for bridging primer. Also, the length of the bridging primer blast alignment should be modified from '34' in line 133 to suite the custom bridging primer (recommended ~90% of primer length). The NanoFilt minimum read length paramater (-l) on line 46 might also need adjusting. This should be the minimum epicPCR product length with a cassette-less integron.*
+***N.B.** If custom primers have been used, the script must be modified with their respective sequences in line 142 (nested primer pair) and line 264 for bridging primer. Also, the length of the bridging primer blast alignment should be modified from '34' in line 133 to suite the custom bridging primer (recommended ~90% of primer length). The NanoFilt minimum read length paramater (-l) on line 289 might also need adjusting. This should be the minimum epicPCR product length with a cassette-less integron.*
 
 ## Installation
 After the below dependencies are installed, simply download the Int1-epicPCR.sh script and run. See usage details below.
