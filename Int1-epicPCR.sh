@@ -139,7 +139,7 @@ done
 #If primers.fas file does not exist, create it with default primer sequences
 for f in $outdir/Pychopper/primers.fas; do
     if [[ ! -e "$f" ]]; then
-        printf ">intI1N\nCGAACGCAGCGGTGGTAA\n>16SNT\nGCTCTTCCGATCTGGACTAC\n" > $outdir/Pychopper/primers.fas
+        printf ">intI1N\nCGAACGCAGCGGTGGTAA\n>16SNT\nCGATCTGGACTAC\n" > $outdir/Pychopper/primers.fas
     fi
 done
 
